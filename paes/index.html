@@ -1,62 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
-    <!--Fontes-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="style.css">
-    <title>Projeto PAES</title>
-</head>
-<body>
-  <header id="menu-inicial">
-      <a href="index.html"><img src="img/logo-paes-sem-fundo-60.png" alt="Logo Projeto PAES"></a>
-      <nav class="link">
-          <a href="index.html">Home</a>
-          <a href="#">Conheça o Projeto</a>
-          <a href="#">Eventos</a>
-          <a href="#">Artigos</a>
-      </nav>
-  </header>
-  <div class="principal">
-    <img src="img/evnto1.jpg" alt="">
-    <div id="div-principal">
-        <h1>PAES - Projeto de Arbitragem Esportiva Solidária</h1>
-        <p>
-            O PAES nasceu do desejo de aproximar jovens e adultos das Federações e Ligas Esportivas por meio da formação e capacitação na modalidade específica.
-        </p>
-        <p>
-            O intuito é desmistificar a imagem dos oficiais da modalidade, oportunizando novos conhecimentos e horizontes para fortalecer o quadro de oficiais de quadra e mesa das instituições.
-        </p>
-    </div >
-  </div>
 
-  <div>
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-  </div>
-  <footer>
-    <div>
-        <h3>Apoios e Patrocínios</h3>
-        <img src="img/logo-fff-sem-fundo.png" alt="Logo FFF - Eventos Esportivos">
-        <img src="img/logo-origirl-sem-fundo.png" alt="Logo Origirl">
-    </div>
-        <img src="" alt="Logo Projeto PAES">
-        <img src="" alt="Logo Gmail"><a href="mailto:projetopaes@gmail.com">projetopaes@gmail.com</a>
-        <img src="" alt="Logo Whatsapp"><a href=""https://whatsapp.com/send?phone=5511999999999" target="_blank">(11)99999-9999</a>
-        <img src="" alt="Logo Facebook">
-        <img src="" alt="Logo Instagram">
-        <img src="" alt="Logo Twitter">
-  </footer>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+	<!--Fontes-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&display=swap" rel="stylesheet">
+	<!--Bootstrap CSS-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!--CSS-->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/carousel-style.css">
+	<title>PAES</title>
+</head>
+
+<body>
+	<!--Barra navegação - cabeçalho-->
+	<header id="menu-inicial">
+		<a href="index.html"><img src="img/logo-paes-sem-fundo-60.png" alt="Logo Projeto PAES"></a>
+		<nav class="link">
+			<a href="index.html">Home</a>
+			<a href="#">Conheça o Projeto</a>
+			<a href="#">Eventos</a>
+			<a href="#">Artigos</a>
+		</nav>
+	</header>
+
+	<!--Principal - breve apresentação + imagem -->
+	<div class="principal">
+		<img src="img/evnto1.jpg" alt="">
+		<div id="div-principal">
+			<h1>PAES - Projeto de Arbitragem Esportiva Solidária</h1>
+			<p>
+				O PAES nasceu do desejo de aproximar jovens e adultos das Federações e Ligas Esportivas por meio da formação e
+				capacitação na modalidade específica.
+			</p>
+			<p>
+				O intuito é desmistificar a imagem dos oficiais da modalidade, oportunizando novos conhecimentos e horizontes
+				para fortalecer o quadro de oficiais de quadra e mesa das instituições.
+			</p>
+		</div>
+	</div>
+
+	<!--carousel com imagens de eventos-->
+	<nav class="eventos">
+		<a href="#"><img src="img/evnto1.jpg" alt=""></a>
+		<a href="#"><img src="img/evnto1.jpg" alt=""></a>
+		<a href="#"><img src="img/evnto1.jpg" alt=""></a>
+	</nav>
+	<!--/carousel com imagens de eventos-->
+	
+
+	<!--Patrocinios + rodapé -->
+	<footer>
+		<div>
+			<h3>Apoios e Patrocínios</h3>
+			<img src="img/logo-fff-sem-fundo.png" alt="Logo FFF - Eventos Esportivos">
+			<img src="img/logo-origirl-sem-fundo.png" alt="Logo Origirl">
+		</div>
+		<img src="" alt="Logo Projeto PAES">
+		<img src="" alt="Logo Gmail"><a href="mailto:projetopaes@gmail.com">projetopaes@gmail.com</a>
+		<img src="" alt="Logo Whatsapp"><a href="" https://whatsapp.com/send?phone=5511999999999"
+			target="_blank">(11)99999-9999</a>
+		<img src="" alt="Logo Facebook">
+		<img src="" alt="Logo Instagram">
+		<img src="" alt="Logo Twitter">
+	</footer>
+
+
+	<!--Scripts-->
+	<script src="js/carousel.js"></script>
+	<!--Scripts Bootstrap-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+		crossorigin="anonymous"></script>
 </body>
+
 </html>
